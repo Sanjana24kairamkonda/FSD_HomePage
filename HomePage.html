@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Home Page</title>
+    <script src="HomePage.js"></script>
+    <style type="text/css">
+        .container-fluid{
+            background-color:darkslategray;
+            font-style: oblique;
+            
+        }
+        .container-fluid_1{
+           background-color: gainsboro;
+           background-image:url('image.png');
+           background-repeat: no-repeat;
+           background-size:cover;
+           backface-visibility:visible;
+        }
+        .container{
+        width : 320px;
+        padding :10px;
+        border :5px solid whitesmoke;
+        margin : auto ;
+        background-color:cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <form class="box" action="HomePage.html" method ="POST">
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="col-lg-2 box"><button type="button" class="btn" ></button></div>
+            <div class="col-lg-7 box"><button type="button" class="btn" style="color:aliceblue">PREP PLATFORM</button></div>
+            <div class="col-lg-2 box"><button type="button" class="btn" style="color:aliceblue">Sign Up</button></div>
+            <div class="col-lg-1 box"><button type="button" class="btn" style="color:aliceblue">Exit</button></div>
+          </div>
+        
+    </div>
+    <div class="container-fluid_1">
+        <br>
+        <br>
+        <center><p style="color:antiquewhite;">This is a platform to practice code</p></center>
+        <br>
+        <br>
+        
+    <div class="container">
+        <center><h2 style="color:darkslategrey">LOGIN</h2></center>
+        <br>
+          <label for="fname" style="color:aliceblue">Username: </label>
+          <input type="text" id="Username" name="fname"><br><br>
+          <label for="lname" style="color:aliceblue">Password: </label>
+          <input type="text" id="Password" name="lname"><br><br>
+          <center><input type="submit"  value="Login" onclick="Respond()"></center>
+          <br><br>
+        </div>
+        <br><br><br>
+        <center><p style="color:blanchedalmond;">Login or Sign Up to proceed to next</p></center>
+        <br><br><br>
+    </div>
+    </form>
+</body>
+</html>
